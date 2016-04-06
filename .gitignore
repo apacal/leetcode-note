@@ -1,0 +1,36 @@
+
+**/*.out
+
+#
+# Python
+#
+*.pyc
+
+#
+# OSX files
+#
+**/.DS_Store
+
+#
+# SCM
+#
+**/.svn
+
+
+#
+# other generated
+#
+**/gen
+**/bin
+**/classes
+**/out/
+**/.metadata
+**/__.proto
+**/TagMapping.txt
+**/.#
+
+**/.svn
+
+
+
+
