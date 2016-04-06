@@ -12,19 +12,18 @@
 #include <vector>
 using namespace std;
 
-
-template <typename T>
-void const printVector(const vector<T>& vec) {
-    cout << "vector size[" << vec.size() << "] content[";
-    for (typename vector<T>::const_iterator it = vec.begin(); it != vec.end(); ) {
+template<class InputIterator>
+void printContainer(int size, InputIterator first, InputIterator last) {
+    cout << "size[" << size << "] content[";
+    for (InputIterator it = first; it != last; ) {
         cout << *it;
-        if (++it != vec.end()) {
+        if (++it != last) {
             cout << ", ";
         }
     }
-
-    cout << "]" << endl;
+    cout << "] \n";
 }
+
 
 template <typename T>
 void const printValue(const T value) {

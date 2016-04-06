@@ -49,13 +49,12 @@ int main() {
                 nums.push_back(num);
             } else {
                 target = num;
-
-                printVector(nums);
+                printContainer(nums.size(), nums.begin(), nums.end());
                 printValue(target);
-                vector<int> ret;
 
+                vector<int> ret;
                 ret = solution.twoSum(nums, target);
-                printVector(ret);
+                printContainer(ret.size(), ret.begin(), ret.end());
 
                 isStart = true;
             }

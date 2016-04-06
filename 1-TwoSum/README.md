@@ -14,3 +14,5 @@ return [0, 1].
 ```
 
 >只需要找到一个符合即可
+
+[https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/two-sum/)
